@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="Base.Theme.SuitmediaTest" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="android:textColor">@color/dark_navy</item>
+    </style>
+
+    <style name="Theme.SuitmediaTest" parent="Base.Theme.SuitmediaTest" />
+
+    <style name="ButtonTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TitleTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.SuitmediaTest</item>
+    </style>
+</resources>
